@@ -1,5 +1,6 @@
 package com.example.gameboybasica
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.gameboybasica.databinding.ActivityMainBinding
@@ -31,7 +32,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.btnAceptar.setOnClickListener {
-            binding.imageView.setImageResource(R.drawable.inicio)
+            val intent = Intent(this, Actividad2::class.java)
+            startActivity(intent)
         }
 
 
