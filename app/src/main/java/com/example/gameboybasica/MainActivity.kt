@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.btnElfo.setOnClickListener {
-            binding.imageView.setImageResource(R.drawable.elfo)
+            binding.imageView.setImageResource(R.drawable.Berserker)
         }
 
         binding.btnLadron.setOnClickListener {
